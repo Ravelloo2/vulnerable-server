@@ -1,0 +1,139 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - 3.0.0 > engine.io > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > engine.io-client > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-adapter > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-client > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-parser > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > engine.io > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-client > engine.io-client > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-adapter > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-client > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > finalhandler > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-adapter > socket.io-parser > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-client > socket.io-parser > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-parser > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2022-10-12T12:26:33.928Z'
+  'npm:hoek:20180212':
+    - 3.0.0 > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > boom > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > wreck > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > sntp > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > hawk > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > cryptiles > boom > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > wreck > boom > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > hawk > boom > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > gulp-cli > wreck > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > hawk > sntp > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > gulp-cli > wreck > boom > hoek:
+        patched: '2022-10-12T12:26:33.928Z'
+  'npm:mime:20170907':
+    - 3.0.0 > send > mime:
+        patched: '2022-10-12T12:26:33.928Z'
+  'npm:minimatch:20160620':
+    - 3.0.0 > globule > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > globule > glob > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > gaze > globule > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > gaze > globule > glob > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > glob-watcher > gaze > globule > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > glob-stream > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > glob-stream > glob > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > vinyl-fs > glob-stream > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2022-10-12T12:26:33.928Z'
+  'npm:ms:20170412':
+    - 3.0.0 > engine.io > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > engine.io-client > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-adapter > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-client > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-parser > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > engine.io > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-client > engine.io-client > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-adapter > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-client > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > finalhandler > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-parser > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+    - 3.0.0 > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2022-10-12T12:26:33.928Z'
+  'npm:stringstream:20180511':
+    - 3.0.0 > stringstream:
+        patched: '2022-10-12T12:26:33.928Z'
